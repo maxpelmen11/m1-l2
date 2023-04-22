@@ -12,7 +12,7 @@ async def on_ready():
 
 @bot.command()
 async def hello(ctx):
-    await ctx.send(f'Привет! Я бот {bot.user}!')
+    await ctx.send(f'Вечер в хату! Я бот {bot.user}! понял а? семки есть:)')
 
 @bot.command()
 async def heh(ctx, count_heh = 5):
